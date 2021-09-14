@@ -88,12 +88,3 @@ variable "function_name" {
   type        = string
   default     = "changeme"
 }
-
-#############################
-# General Shared
-#############################
-
-variable "tags" {
-  description = "Default Tags"
-  type        = map
-}
